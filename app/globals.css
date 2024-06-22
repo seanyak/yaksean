@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    --line-color: #e5e7eb;
+  }
+  
+  html.dark {
+    --line-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .borderBlack {
+    @apply border border-black/10;
+  }
+
+  @keyframes rotate-back-forth {
+    0% {
+      transform: rotate(-12deg);
+    }
+    15% {
+      transform: rotate(-29deg);
+    }
+    45%, 100% {
+      transform: rotate(-12deg);
+    }
+  }
+  
+  .rotate-animation {
+    animation: rotate-back-forth 2s infinite;
+  }
+  
