@@ -82,7 +82,7 @@ export const projectsData = [
     description: "Worked as full-stack engineer, designed UI, developed front-end and back end",
     tags: ["UI","Front-end","Back-end", "React", "Next.JS", "Tailwind", "MongoDB",],
     imageUrl: HOM,
-    projUrl: "https://homland-delta.vercel.app/",
+    projUrl: "https://www.thehom.net/",
   },
   {
     title: "DGI-UI",
