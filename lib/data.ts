@@ -138,6 +138,10 @@ export const skillsData = [
   "Flask",
   "Framer Motion",
   "Adobe Creative Suite",
+  "Wordpress",
+  "Squarespace",
+  "Shopify",
+  "BigCommerce",
   "Ableton",
 ] as const;
 
