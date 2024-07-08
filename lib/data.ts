@@ -96,7 +96,7 @@ export const projectsData = [
     title: "DGI-UI",
     description:
       "This project showcases my ability to deliver high-quality, maintainable code and my commitment to enhancing user interfaces through innovative and user-centric design.",
-      tags: ["Component Design and Development", "Dark Mode Support", "Documentation and Examples", "Flexibility and Customization"],
+      tags: ["Flexibility and Customization", "Documentation", "Dark Mode", "Component Design"],
       imageUrl: DGI,
     projUrl: "https://dgi-ui.vercel.app/docs/overview/introduction",
   },

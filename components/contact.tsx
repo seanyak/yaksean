@@ -37,8 +37,9 @@ export default function Contact() {
           yaksean.dev@gmail.com
         </a>{" "}<br />
         <span className="italic">or hit me up here</span>
+        </p>
         <h1 className="text-6xl rotate-2">👇</h1>
-      </p>
+      
 
       <form
         className="mt-10 flex flex-col dark:text-black"
