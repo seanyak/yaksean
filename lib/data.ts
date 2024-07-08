@@ -82,14 +82,14 @@ export const projectsData = [
     title: "The HOM Network",
     description: "Worked as full-stack engineer, designed UI, developed front-end and back end",
     tags: ["UI","Front-end","Back-end", "React", "Next.JS", "Tailwind", "MongoDB",],
-    imageUrl: SLC,
+    imageUrl: HOM,
     projUrl: "https://www.thehom.net/",
   },
   {
     title: "Self Love Club",
     description: "Designed and developed landing page for Self Love Club bodyworks and massage therapy.",
     tags: ["UI","Front-end","Back-end", "React", "Next.JS", "Tailwind", "MongoDB",],
-    imageUrl: HOM,
+    imageUrl: SLC,
     projUrl: "https://self-love-club.vercel.app/",
   },
   {
@@ -99,30 +99,6 @@ export const projectsData = [
       tags: ["Component Design and Development", "Dark Mode Support", "Documentation and Examples", "Flexibility and Customization"],
       imageUrl: DGI,
     projUrl: "https://dgi-ui.vercel.app/docs/overview/introduction",
-  },
-  {
-    title: "Jim Dine",
-    description:
-      "Worked on site design and development, content creation, and SEO",
-      tags: ["Squarespace", "Responsive Web Design", "Content Creation", "SEO Services", "Site Indexing"],
-      imageUrl: JimDine,
-    projUrl: "https://www.jimdine.com/",
-  },
-  {
-    title: "Artist Asset Management Group",
-    description:
-      "I worked on the design and development of their site, content creation, and SEO.",
-    tags: ["Squarespace", "Responsive Web Design", "Content Creation", "SEO Services", "Site Indexing"],
-    imageUrl: AAMG,
-    projUrl: "https://www.artassetmanagementgroup.com/",
-  },
-  {
-    title: "Skidmore Contemporary Art",
-    description:
-      "Designed and developed their site to showcase their Artists & Exhibitions. Also worked on content creation, and SEO.",
-      tags: ["Big Commerce", "Responsive Web Design", "Content Creation", "SEO Services", "Site Indexing"],
-      imageUrl: Skidmore,
-    projUrl: "https://skidmorecontemporaryart.com/",
   },
 ] as const;
 
