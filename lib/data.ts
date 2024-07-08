@@ -9,6 +9,7 @@ import AAMG from "@/public/proj_AAMG.png";
 import Skidmore from "@/public/proj_Skidmore.png"
 import DGI from "@/public/proj_DGI.png"
 import HOM from "@/public/proj_HOM.png"
+import SLC from "@/public/yaksean_projSLC.png"
 
 export const portrait = {
     imageUrl: richard,
@@ -81,8 +82,15 @@ export const projectsData = [
     title: "The HOM Network",
     description: "Worked as full-stack engineer, designed UI, developed front-end and back end",
     tags: ["UI","Front-end","Back-end", "React", "Next.JS", "Tailwind", "MongoDB",],
-    imageUrl: HOM,
+    imageUrl: SLC,
     projUrl: "https://www.thehom.net/",
+  },
+  {
+    title: "Self Love Club",
+    description: "Designed and developed landing page for Self Love Club bodyworks and massage therapy.",
+    tags: ["UI","Front-end","Back-end", "React", "Next.JS", "Tailwind", "MongoDB",],
+    imageUrl: HOM,
+    projUrl: "https://self-love-club.vercel.app/",
   },
   {
     title: "DGI-UI",
