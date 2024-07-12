@@ -17,13 +17,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
-        My journey in the tech world kicked off back in Web 1.0, where I dabbled in crafting static websites. 
-        I made sites as a hobby for friends and local bands.
+        Born and raised in Orange County, CA. My journey in the tech world kicked off back in Web 1.0, where I dabbled in 
+        crafting static websites. I made sites as a hobby for friends and local bands. 25 years later, I packd up the family
+        car + trailer and moved to beautiful Wilmington, NC, working as a freelance developer.
         {" "}<span className="italic">My favorite thing about web development</span> is the ability to creatively solve 
         problems with code. My core stack is{" "}<span className="font-medium">React, Next.js, Node.js, and MongoDB
         </span>. I am also familiar with TypeScript and Laravel. I'm always hungry to learn and master new tech. I am 
-        currently looking for a{" "}<span className="font-medium">full-time position</span> as a
-        developer.
+        currently looking for a{" "}<span className="font-medium">full-time </span>
+        developer opportunity.
       </p>
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy creating music, 
