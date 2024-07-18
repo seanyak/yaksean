@@ -86,7 +86,7 @@ export const projectsData = [
     description: "Designed and developed landing page for Self Love Club bodyworks and massage therapy.",
     tags: ["UI","Front-end", "React", "Next.JS", "Tailwind"],
     imageUrl: SLC,
-    projUrl: "https://self-love-club.vercel.app/",
+    projUrl: "https://selfloveclub-ilm.com/",
   },
   {
     title: "DGI-UI",
