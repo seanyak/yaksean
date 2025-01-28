@@ -1,6 +1,6 @@
 # Sean's Portfolio
 
-Hi, I'm Sean. I'm a web developer with 3 years of experience. I love to design & develop, with a focus on React (Next.js).
+Hi, I'm Sean. I'm a web developer. I love to design & develop, with a focus on React (Next.js).
 
 ## About Me
 
