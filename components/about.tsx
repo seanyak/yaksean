@@ -17,21 +17,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
-        Born and raised in Orange County, CA. My journey into tech started back in Web 1.0, where I dabbled in 
-        crafting static websites as a hobby for friends and local bands. Fast forward 25 years, my wife
-        and I packed up our 3 kids 2 cats and 1 pup in our car + trailer and moved to Wilmington, NC.
+        Born in L.A., raised in Orange County, CA, now residing in Wilmington, NC. My journey into tech started back in the 90s, where I dabbled in 
+        graphic design and building websites for friends and local bands. Fast forward 25 years, I'm a freelance web develoer, graphic designer, and entrepreneur.
         My core stack is{" "}<span className="font-medium">React, Next.js, Node.js, and MongoDB
-        </span>. I'm always hungry to learn and master new tech. I am 
-        currently looking for a{" "}<span className="font-medium">full-time </span>
-        developer opportunity.
+        </span>. I'm always hungry to learn and master new tech.
       </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy creating music, 
-        discovering new grooves, coaching youth soccer, watching footy, and hanging
+        <span className="italic">When I'm not hacking away</span>, I enjoy creating music, 
+        discovering new tunes, coaching youth soccer, watching footy, and hanging
         with the fam at the beach. 
       </p>
       <p className="mt-3 text-xl font-medium">
-      Let's make something!
+      Let's create something spectacular togeter!
       </p>
     </motion.section>
   );
