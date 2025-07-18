@@ -10,6 +10,9 @@ import Skidmore from "@/public/proj_Skidmore.png"
 import DGI from "@/public/proj_DGI.png"
 import HOM from "@/public/proj_HOM.png"
 import SLC from "@/public/proj_SLC.png"
+import IND from "@/public/proj_IND.png"
+import SA from "@/public/proj_SA.png"
+
 
 export const portrait = {
     imageUrl: richard,
@@ -43,16 +46,16 @@ export const experiencesData = [
     title: "Graphic/Web Design",
     location: "Freelance",
     description:
-      "I have been designing graphics and web sites since 1999, with a focus in the music industry. I design logos, flyers, album art, merch, and graphic content as well as web sites. Artists + Labels I have worked with in the past include: Dahga Bloom, Zoohaus, Cosmonauts, The Growlers, Local Natives, OC Records, Burger Records, Lollipop Records, Captcha Records, Desert Daze, and Psycho De Mayo",
-    icon: React.createElement(GrImage),
+      "I have been designing graphics and web sites since 1999, with a focus in the music industry. I design logos, flyers, album art, merch, and graphic content as well as web sites.",
+    icon: GrImage,
     date: "1999-present",
   },
-  {
+  { 
     title: "Harvard X",
     location: "Online",
     description:
-      "Completion of Computer Science (CS50) and Web Programming with Python and JavaScript (CS50W) coursework",
-    icon: React.createElement(LuGraduationCap),
+      "Completion of Computer Science (CS50) and Web Programming with Python and JavaScript (CS50W)",
+    icon: LuGraduationCap,
     date: "2021-2022",
   },
   {
@@ -60,38 +63,51 @@ export const experiencesData = [
     location: "Online",
     description:
       "Completeion of coursework in Web Design, Front End Development Libraries, Data Visualization, JavaScript Algorithms and Data Structures",
-    icon: React.createElement(VscSymbolNamespace),
+    icon: VscSymbolNamespace,
     date: "2022-2023",
   },
   {
     title: "Web Developer",
     location: "Freelance",
     description:
-      "I have been working as a freelance web developer since 2021. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
+      "I have been working as a freelance web developer since 2021. My stack includes React, Next.js, TypeScript, Tailwind, and MongoDB. Open to new projects and opportunities.",
+    icon: FaReact,
     date: "2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "The HOM Network",
-    description: "Worked as full-stack engineer, designed UI, developed front-end and back end",
-    tags: ["Fullstack", "React", "Next.JS", "Tailwind","UI", "MongoDB",],
-    imageUrl: HOM,
-    projUrl: "https://www.thehom.net/",
-  },
-  {
     title: "Self Love Club",
-    description: "Designed and developed landing page for Self Love Club bodyworks and massage therapy.",
-    tags: ["UI","Front-end", "React", "Next.JS", "Tailwind"],
+    description: "Designed and developed a branded landing page for Self Love Club Bodyworks & Massage, including full SEO optimization, graphic design, marketing materials and original content creation.",
+    tags: ["UI","Front-end", "React", "SEO", "Branding", "Graphic Design"],
     imageUrl: SLC,
     projUrl: "https://selfloveclub-ilm.com/",
   },
   {
+    title: "Solutions-Associates",
+    description: "Built a responsive business website for Solutions-Associates with custom copywriting and SEO integration to improve search visibility.",
+    tags: ["UI","Front-end", "React", "Next.JS", "Tailwind", "SEO", "Copywriting"],
+    imageUrl: SA,
+    projUrl: "https://solutions-associates.com/",
+  },
+  {
+    title: "Indivisible Wilmington",
+    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets.",
+    tags: ["UI","Front-end", "React", "Next.JS", "Tailwind", "Graphic Design", "Marketing"],
+    imageUrl: IND,
+    projUrl: "https://indivisible-ilm.org/",
+  },
+  {
+    title: "The HOM Network",
+    description: "Led full-stack development for The HOM Network, including UI/UX design, scalable front-end architecture, back-end logic, graphic design and branding.",
+    tags: ["Fullstack Development", "UI", "React", "Tailwind","MongoDB", "Graphic Design", "Branding"],
+    imageUrl: HOM,
+    projUrl: "https://www.thehom.net/",
+  },
+  {
     title: "DGI-UI",
-    description:
-      "This project showcases my ability to deliver high-quality, maintainable code and my commitment to enhancing user interfaces through innovative and user-centric design.",
+    description: "Built a customizable, well-documented UI component library with support for dark mode, showcasing scalable design and maintainable code.",
       tags: ["Flexibility and Customization", "Documentation", "Dark Mode", "Component Design"],
       imageUrl: DGI,
     projUrl: "https://dgi-ui.vercel.app/docs/overview/introduction",
