@@ -17,10 +17,9 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
-        Born in L.A., raised in Orange County, and now rooted in Wilmington, NC. I got my start in the 
-        '90s designing graphics and building websites for local bands and friends. Since 1999, I’ve 
-        focused on design and development for the music industry, crafting logos, flyers, album art, 
-        merch, and full websites.
+        Native of CA, born in L.A., raised in Orange County, now rooted in Wilmington, NC. I started off
+        designing graphics and building websites for local bands and friends in the late '90s . Since then, 
+        my focus has been in the music industry, crafting logos, flyers, album art, merch, and websites.
       </p>
       <p className="mb-3 text-justify">
         Nowadays I’m a freelance web developer, graphic designer, and entrepreneur with a core tech 
@@ -32,7 +31,7 @@ export default function About() {
         When I’m not designing and developing, I’m making music, digging for new sounds, coaching youth soccer, or hanging at the beach with the fam.
       </p>
       <p className="mt-3 text-xl font-medium">
-      Let's create something spectacular togeter!
+        Let's create something spectacular togeter!
       </p>
     </motion.section>
   );
