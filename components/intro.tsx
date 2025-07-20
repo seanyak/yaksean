@@ -14,7 +14,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 
 
 export default function Intro() {
-  const { ref } = useSectionInView("HOME", 0.5);
+  const { ref } = useSectionInView("HOME");
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section 
