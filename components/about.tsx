@@ -17,15 +17,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-justify">
-        Born in L.A., raised in Orange County, CA, now residing in Wilmington, NC. My journey into tech started back in the 90s, where I dabbled in 
-        graphic design and building websites for friends and local bands. Fast forward 25 years, I'm a freelance web develoer, graphic designer, and entrepreneur.
-        My core stack is{" "}<span className="font-medium">React, Next.js, Node.js, and MongoDB
-        </span>. I'm always hungry to learn and master new tech.
+        Born in L.A., raised in Orange County, and now rooted in Wilmington, NC. I got my start in the 
+        '90s designing graphics and building websites for local bands and friends. Since 1999, I’ve 
+        focused on design and development for the music industry, crafting logos, flyers, album art, 
+        merch, and full websites.
       </p>
       <p>
-        <span className="italic">When I'm not hacking away</span>, I enjoy creating music, 
-        discovering new tunes, coaching youth soccer, watching footy, and hanging
-        with the fam at the beach. 
+        Nowadays I’m a freelance web developer, graphic designer, and entrepreneur with a core tech 
+        stack of{" "}<span className="font-medium">React, Next.js, TypeScript, Tailwind, and 
+        MongoDB</span>. I’ve been working independently since 2021 and I’m always eager to learn, 
+        build, and level up.
+      </p>
+      <p>
+        When I’m not designing and developing, I’m making music, digging for new sounds, coaching youth soccer, or hanging at the beach with the fam.
       </p>
       <p className="mt-3 text-xl font-medium">
       Let's create something spectacular togeter!
