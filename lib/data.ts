@@ -4,9 +4,9 @@ import { VscSymbolNamespace } from "react-icons/vsc";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import richard from "@/public/richard.png";
-import JimDine from "@/public/proj_JimDine.png";
+import JD from "@/public/proj_JimDine.png";
 import AAMG from "@/public/proj_AAMG.png";
-import Skidmore from "@/public/proj_Skidmore.png"
+import HSCA from "@/public/proj_HSCA.png"
 import DGI from "@/public/proj_DGI.png"
 import HOM from "@/public/proj_HOM.png"
 import SLC from "@/public/proj_SLC.png"
@@ -75,25 +75,46 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Self Love Club",
-    description: "Designed and developed a branded landing page for Self Love Club Bodyworks & Massage, including full SEO optimization, graphic design, marketing materials and original content creation.",
+    description: "Designed and developed a branded landing page, including full SEO optimization, graphic design, marketing materials and original content creation — helping boost bookings and local search visibility.",
     tags: ["UI","Front-end", "React", "SEO", "Branding", "Graphic Design"],
     imageUrl: SLC,
     projUrl: "https://selfloveclub-ilm.com/",
   },
   {
+    title: "Hannah Sloan Curatorial & Advisory",
+    description: "Improved SEO performance through metadata and structured data, boosting artist page visibility in search results.",
+    tags: ["SEO", "Metadata", "JSON-LD", "Indexing", "Sitemap"],
+    imageUrl: HSCA,
+    projUrl: "https://www.hannahsloan.com/",
+  },
+  {
     title: "Solutions-Associates",
-    description: "Built a responsive business website for Solutions-Associates with custom copywriting and SEO integration to improve search visibility.",
-    tags: ["UI","Front-end", "React", "Next.JS", "Tailwind", "SEO", "Copywriting"],
+    description: "Launched a responsive site for Solutions & Associates with SEO and copywriting that improved professional visibility and search indexing.",
+    tags: ["UI","Front-end", "React", "SEO", "Copywriting"],
     imageUrl: SA,
     projUrl: "https://solutions-associates.com/",
   },
   {
+    title: "Jim Dine",
+    description: "Enhanced search ranking by optimizing metadata, image alt tags, and submitting sitemap for indexing.",
+    tags: ["SEO", "Metadata", "Sitemap", "Google Indexing"],
+    imageUrl: JD,
+    projUrl: "https://www.jimdine.com/",
+  },
+  {
     title: "Indivisible Wilmington",
-    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets.",
-    tags: ["UI","Front-end", "React", "Next.JS", "Tailwind", "Graphic Design", "Marketing"],
+    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets, to support outreach and improve engagement with local audiences.",
+    tags: ["UI","Front-end", "React", "Graphic Design", "Marketing"],
     imageUrl: IND,
     projUrl: "https://indivisible-ilm.org/",
   },
+  {
+    title: "Art Asset Management Group",
+    description: "Boosted search visibility through SEO updates to meta tags, titles, and image alt attributes.",
+    tags: ["SEO", "Metadata", "Sitemap", "Search Optimization"],
+    imageUrl: AAMG,
+    projUrl: "https://www.artassetmanagementgroup.com/",
+  },  
   {
     title: "The HOM Network",
     description: "Led full-stack development for The HOM Network, including UI/UX design, scalable front-end architecture, back-end logic, graphic design and branding.",
