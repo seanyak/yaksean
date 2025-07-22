@@ -27,10 +27,7 @@ export default function About() {
         MongoDB</span>. I’ve been working independently since 2021 and I’m always eager to learn, 
         build, and level up.
       </p>
-      <p className="mb-3 text-justify">
-        When I’m not designing and developing, I’m making music, digging for new sounds, coaching youth soccer, or hanging at the beach with the fam.
-      </p>
-      <p className="mt-3 text-xl font-medium">
+      <p className="mt-3 text-xl font-medium py-7">
         Let's create something spectacular togeter!
       </p>
     </motion.section>

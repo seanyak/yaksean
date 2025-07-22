@@ -62,13 +62,12 @@ export default function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-extrabold">HEY, I'M SEAN.</span> <br />
-          <div className='leading-[.9]'>
-          {" "} <span className="font-bold">DESIGNER</span> <br />
+          <span className="font-light">HEY, I'M <span className="font-extrabold">SEAN</span>.</span> <br />
+          <div className='leading-[.9] py-14 text-[66px]'>
+          {" "} <span className="font-black">DESIGNER</span> <br />
           {" "} <span className="font-black">/</span> <br />
-          {" "} <span className="font-bold">DEVELOPER</span> <br />
+          {" "} <span className="font-black">DEVELOPER</span> <br />
           </div>
-          <br />My focus is{" "} <span className="underline">React (Next.js)</span>.
         </motion.h1>
         <motion.div
             className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
