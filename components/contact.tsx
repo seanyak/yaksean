@@ -55,10 +55,12 @@ export default function Contact() {
           yaksean.dev@gmail.com
         </a>{" "}
         <br />
-        <span className="italic">or hit me up here</span>
       </p>
+        {/* 
+        <span className="italic">or hit me up here</span>
+      
       <h1 className="text-6xl rotate-2">👇</h1>
-
+      </p>
       <form
         onSubmit={handleSubmit}
         className="mt-10 flex flex-col dark:text-black"
@@ -80,6 +82,7 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
+      */}
     </motion.section>
   );
 }
