@@ -65,7 +65,7 @@ export default function Intro() {
           <span className="font-light">HEY, I'M <span className="font-extrabold">SEAN</span>.</span> <br />
           <div className='leading-[.9] py-13 text-[64px]'>
           {" "} <span className="font-black">DESIGNER</span> <br />
-          {" "} <span className="font-black">/</span> <br />
+          {" "} <span className="font-black">X</span> <br />
           {" "} <span className="font-black">DEVELOPER</span> <br />
           </div>
         </motion.h1>
