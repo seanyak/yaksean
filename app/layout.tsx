@@ -11,8 +11,32 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Sean Yakubovsky',
-  description: 'Thee portfolio of Sean Yakubovsky, web developer',
+  title: {
+    default: "Sean Yakubovsky — Web Developer & Designer",
+    template: "%s | Sean Yakubovsky — Web Developer",
+  },
+
+  description:
+    "Portfolio of Sean Yakubovsky — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO. Projects include Self Love Club, Hannah Sloan Curatorial & Advisory, Solutions & Associates, Jim Dine, Indivisible Wilmington, Art Asset Management Group, The HOM Network, and DGI-UI.",
+
+  keywords: [
+    "Sean Yakubovsky",
+    "web developer",
+    "frontend developer",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "UI/UX",
+    "SEO",
+    "performance optimization",
+    "structured data",
+    "JSON-LD",
+    "branding",
+    "graphic design",
+    "portfolio",
+    "freelance",
+  ],
 }
 
 export default function RootLayout({
