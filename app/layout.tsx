@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Header from '@/components/header';
 import Intro from '@/components/intro';
 import './globals.css';
@@ -10,15 +11,14 @@ import Footer from '@/components/footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+export const metadata: Metadata = {
+  metadataBase: new URL('https://yaksean.dev'), // <-- change if your domain differs
   title: {
     default: "Sean Yakubovsky — Web Developer & Designer",
     template: "%s | Sean Yakubovsky — Web Developer",
   },
-
   description:
     "Portfolio of Sean Yakubovsky — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO. Projects include Self Love Club, Hannah Sloan Curatorial & Advisory, Solutions & Associates, Jim Dine, Indivisible Wilmington, Art Asset Management Group, The HOM Network, and DGI-UI.",
-
   keywords: [
     "Sean Yakubovsky",
     "web developer",
@@ -37,7 +37,34 @@ export const metadata = {
     "portfolio",
     "freelance",
   ],
-}
+  openGraph: {
+    type: 'website',
+    url: '/',
+    siteName: 'Sean Yakubovsky — Web Developer & Designer',
+    title: "Sean Yakubovsky — Web Developer & Designer",
+    description:
+      "Portfolio of Sean Yakubovsky — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO.",
+    images: [
+      {
+        url: '/richard.png', // served from /public
+        width: 1200,
+        height: 630,
+        alt: 'Sean Yakubovsky — Portfolio',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Sean Yakubovsky — Web Developer & Designer",
+    description:
+      "Portfolio of Sean Yakubovsky — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO.",
+    images: ['/richard.png'],
+  },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+};
 
 export default function RootLayout({
   children,
