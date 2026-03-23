@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Sean Yakubovsky — Web Developer",
   },
   description:
-    "Portfolio of Sean Yakubovsky — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO. Projects include Self Love Club, Hannah Sloan Curatorial & Advisory, Solutions & Associates, Jim Dine, Indivisible Wilmington, Art Asset Management Group, The HOM Network, and DGI-UI.",
+    "Portfolio of Sean Yakubovsky, Wilmington, NC — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO. Projects include Self Love Club, Hannah Sloan Curatorial & Advisory, Solutions & Associates, Jim Dine, Indivisible Wilmington, Art Asset Management Group, The HOM Network, and DGI-UI.",
   keywords: [
     "Sean Yakubovsky",
     "web developer",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'Sean Yakubovsky — Web Developer & Designer',
     title: "Sean Yakubovsky — Web Developer & Designer",
     description:
-      "Portfolio of Sean Yakubovsky — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO.",
+      "Portfolio of Sean Yakubovsky, Wilmington, NC — freelance web developer & designer specializing in React, Next.js, TypeScript, Tailwind, and SEO.",
     images: [
       {
         url: '/richard.png', // served from /public
