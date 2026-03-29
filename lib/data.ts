@@ -74,6 +74,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "The HOM Network",
+    description: "Led full-stack development for The HOM Network, including UI/UX design, scalable front-end architecture, back-end logic, graphic design and branding.",
+    tags: ["Fullstack Development", "UI", "React", "Tailwind","MongoDB", "Graphic Design", "Branding"],
+    imageUrl: HOM,
+    projUrl: "https://www.thehom.net/",
+  },
+  {
+    title: "DGI-UI",
+    description: "Built a customizable, well-documented UI component library with support for dark mode, showcasing scalable design and maintainable code.",
+      tags: ["Flexibility and Customization", "Documentation", "Dark Mode", "Component Design"],
+      imageUrl: DGI,
+    projUrl: "https://dgi-ui.vercel.app/docs/overview/introduction",
+  },
+  {
     title: "Self Love Club",
     description: "Designed and developed a branded landing page, including full SEO optimization, graphic design, marketing materials and original content creation — helping boost bookings and local search visibility.",
     tags: ["UI","Front-end", "React", "SEO", "Branding", "Graphic Design"],
@@ -115,20 +129,6 @@ export const projectsData = [
     imageUrl: AAMG,
     projUrl: "https://www.artassetmanagementgroup.com/",
   },  
-  {
-    title: "The HOM Network",
-    description: "Led full-stack development for The HOM Network, including UI/UX design, scalable front-end architecture, back-end logic, graphic design and branding.",
-    tags: ["Fullstack Development", "UI", "React", "Tailwind","MongoDB", "Graphic Design", "Branding"],
-    imageUrl: HOM,
-    projUrl: "https://www.thehom.net/",
-  },
-  {
-    title: "DGI-UI",
-    description: "Built a customizable, well-documented UI component library with support for dark mode, showcasing scalable design and maintainable code.",
-      tags: ["Flexibility and Customization", "Documentation", "Dark Mode", "Component Design"],
-      imageUrl: DGI,
-    projUrl: "https://dgi-ui.vercel.app/docs/overview/introduction",
-  },
 ] as const;
 
 export const skillsData = [
