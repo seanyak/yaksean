@@ -12,6 +12,7 @@ import HOM from "@/public/proj_HOM.png"
 import SLC from "@/public/proj_SLC.png"
 import IND from "@/public/proj_IND.png"
 import SA from "@/public/proj_SA.png"
+import TDS from "@/public/TD-Solar-site.png"
 
 
 export const portrait = {
@@ -95,11 +96,18 @@ export const projectsData = [
     projUrl: "https://selfloveclub-ilm.com/",
   },
   {
-    title: "Hannah Sloan Curatorial & Advisory",
-    description: "Improved SEO performance through metadata and structured data, boosting artist page visibility in search results.",
-    tags: ["SEO", "Metadata", "JSON-LD", "Indexing", "Sitemap"],
-    imageUrl: HSCA,
-    projUrl: "https://www.hannahsloan.com/",
+    title: "Indivisible Wilmington",
+    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets, to support outreach and improve engagement with local audiences.",
+    tags: ["UI","Front-end", "React", "Graphic Design", "Marketing"],
+    imageUrl: IND,
+    projUrl: "https://indivisible-ilm.org/",
+  },
+  {
+    title: "TD Solar & Electric",
+    description: "Designed and developed a responsive branded website for TD Solar & Electric, including modern UI implementation, SEO optimization, and content structuring to strengthen online visibility and support customer outreach.",
+    tags: ["UI","Front-end", "React", "SEO", "Branding", "Responsive Design"],
+    imageUrl: TDS,
+    projUrl: "https://www.tdsolarandelectric.com/",
   },
   {
     title: "Solutions-Associates",
@@ -109,18 +117,18 @@ export const projectsData = [
     projUrl: "https://solutions-associates.com/",
   },
   {
+    title: "Hannah Sloan Curatorial & Advisory",
+    description: "Improved SEO performance through metadata and structured data, boosting artist page visibility in search results.",
+    tags: ["SEO", "Metadata", "JSON-LD", "Indexing", "Sitemap"],
+    imageUrl: HSCA,
+    projUrl: "https://www.hannahsloan.com/",
+  },
+  {
     title: "Jim Dine",
     description: "Enhanced search ranking by optimizing metadata, image alt tags, and submitting sitemap for indexing.",
     tags: ["SEO", "Metadata", "Sitemap", "Google Indexing"],
     imageUrl: JD,
     projUrl: "https://www.jimdine.com/",
-  },
-  {
-    title: "Indivisible Wilmington",
-    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets, to support outreach and improve engagement with local audiences.",
-    tags: ["UI","Front-end", "React", "Graphic Design", "Marketing"],
-    imageUrl: IND,
-    projUrl: "https://indivisible-ilm.org/",
   },
   {
     title: "Art Asset Management Group",
