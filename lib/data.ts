@@ -96,13 +96,6 @@ export const projectsData = [
     projUrl: "https://selfloveclub-ilm.com/",
   },
   {
-    title: "Indivisible Wilmington",
-    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets, to support outreach and improve engagement with local audiences.",
-    tags: ["UI","Front-end", "React", "Graphic Design", "Marketing"],
-    imageUrl: IND,
-    projUrl: "https://indivisible-ilm.org/",
-  },
-  {
     title: "TD Solar & Electric",
     description: "Designed and developed a responsive branded website for TD Solar & Electric, including modern UI implementation, SEO optimization, and content structuring to strengthen online visibility and support customer outreach.",
     tags: ["UI","Front-end", "React", "SEO", "Branding", "Responsive Design"],
@@ -115,6 +108,13 @@ export const projectsData = [
     tags: ["UI","Front-end", "React", "SEO", "Copywriting"],
     imageUrl: SA,
     projUrl: "https://solutions-associates.com/",
+  },
+  {
+    title: "Indivisible Wilmington",
+    description: "Developed and launched a clean, mobile-first landing page for Indivisible Wilmington, including supplemental graphic design assets, to support outreach and improve engagement with local audiences.",
+    tags: ["UI","Front-end", "React", "Graphic Design", "Marketing"],
+    imageUrl: IND,
+    projUrl: "https://indivisible-ilm.org/",
   },
   {
     title: "Hannah Sloan Curatorial & Advisory",
